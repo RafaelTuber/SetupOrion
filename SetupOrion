@@ -3695,7 +3695,7 @@ services:
 ## --------------------------- ORION --------------------------- ##
 
   traefik:
-    image: traefik:v3.4.0
+    image: traefik:v3.5.0
     command:
       - "--api.dashboard=true"
       - "--providers.swarm=true"
